@@ -67,9 +67,9 @@ public class Homework {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Homework account = (Homework) o;
+        Homework homework = (Homework) o;
 
-        return Objects.equals(id, account.id);
+        return Objects.equals(id, homework.id);
     }
 
     @Override

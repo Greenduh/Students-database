@@ -68,9 +68,9 @@ public class Student {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Student account = (Student) o;
+        Student student = (Student) o;
 
-        return Objects.equals(id, account.id);
+        return Objects.equals(id, student.id);
     }
 
     @Override
